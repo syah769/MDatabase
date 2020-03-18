@@ -1,0 +1,243 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+// apply plugin: 'com.google.ar.sceneform.plugin'
+
+def keystoreProperties = new Properties()
+   def keystorePropertiesFile = rootProject.file('key.properties')
+   if (keystorePropertiesFile.exists()) {
+       keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+   }
+
+android {
+    compileSdkVersion 28
+
+     compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    packagingOptions {
+         pickFirst 'lib/arm64-v8a/libarpresto_api.so'
+         pickFirst 'lib/x86_64/libarpresto_api.so'
+         pickFirst 'lib/armeabi/libarpresto_api.so'
+         pickFirst 'lib/x86/libarpresto_api.so'
+         pickFirst 'lib/armeabi-v7a/libarpresto_api.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libarcore_sdk_jni.so'
+         pickFirst 'lib/x86_64/libarcore_sdk_jni.so'
+         pickFirst 'lib/armeabi/libarcore_sdk_jni.so'
+         pickFirst 'lib/x86/libarcore_sdk_jni.so'
+         pickFirst 'lib/armeabi-v7a/libarcore_sdk_jni.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libAndroidCpuUsage.so'
+         pickFirst 'lib/x86_64/libAndroidCpuUsage.so'
+         pickFirst 'lib/armeabi/libAndroidCpuUsage.so'
+         pickFirst 'lib/x86/libAndroidCpuUsage.so'
+         pickFirst 'lib/armeabi-v7a/libAndroidCpuUsage.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libarcore_rendering_utils_api.so'
+         pickFirst 'lib/x86_64/libarcore_rendering_utils_api.so'
+         pickFirst 'lib/armeabi/libarcore_rendering_utils_api.so'
+         pickFirst 'lib/x86/libarcore_rendering_utils_api.so'
+         pickFirst 'lib/armeabi-v7a/libarcore_rendering_utils_api.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libarcore_sdk_c.so'
+         pickFirst 'lib/x86_64/libarcore_sdk_c.so'
+         pickFirst 'lib/armeabi/libarcore_sdk_c.so'
+         pickFirst 'lib/x86/libarcore_sdk_c.so'
+         pickFirst 'lib/armeabi-v7a/libarcore_sdk_c.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libarcore_unity_api.so'
+         pickFirst 'lib/x86_64/libarcore_unity_api.so'
+         pickFirst 'lib/armeabi/libarcore_unity_api.so'
+         pickFirst 'lib/x86/libarcore_unity_api.so'
+         pickFirst 'lib/armeabi-v7a/libarcore_unity_api.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libil2cpp.so'
+         pickFirst 'lib/x86_64/libil2cpp.so'
+         pickFirst 'lib/armeabi/libil2cpp.so'
+         pickFirst 'lib/x86/libil2cpp.so'
+         pickFirst 'lib/armeabi-v7a/libil2cpp.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libmain.so'
+         pickFirst 'lib/x86_64/libmain.so'
+         pickFirst 'lib/armeabi/libmain.so'
+         pickFirst 'lib/x86/libmain.so'
+         pickFirst 'lib/armeabi-v7a/libmain.so'
+    //     //
+//         pickFirst 'lib/arm64-v8a/libmonobdwgc-2.0.so'
+//         pickFirst 'lib/x86_64/libmonobdwgc-2.0.so'
+//         pickFirst 'lib/armeabi/libmonobdwgc-2.0.so'
+//         pickFirst 'lib/x86/libmonobdwgc-2.0.so'
+//        pickFirst 'lib/armeabi-v7a/libmonobdwgc-2.0.so'
+        //
+//         pickFirst 'lib/arm64-v8a/libMonoPosixHelper.so'
+//         pickFirst 'lib/x86_64/libMonoPosixHelper.so'
+//         pickFirst 'lib/armeabi/libMonoPosixHelper.so'
+//         pickFirst 'lib/x86/libMonoPosixHelper.so'
+//        pickFirst 'lib/armeabi-v7a/libMonoPosixHelper.so'
+
+         pickFirst 'lib/arm64-v8a/libswappy.so'
+         pickFirst 'lib/x86_64/libswappy.so'
+         pickFirst 'lib/armeabi/libswappy.so'
+         pickFirst 'lib/x86/libswappy.so'
+         pickFirst 'lib/armeabi-v7a/libswappy.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libswappyVk.so'
+         pickFirst 'lib/x86_64/libswappyVk.so'
+         pickFirst 'lib/armeabi/libswappyVk.so'
+         pickFirst 'lib/x86/libswappyVk.so'
+         pickFirst 'lib/armeabi-v7a/libswappyVk.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libunity.so'
+         pickFirst 'lib/x86_64/libunity.so'
+         pickFirst 'lib/armeabi/libunity.so'
+         pickFirst 'lib/x86/libunity.so'
+        pickFirst 'lib/armeabi-v7a/libunity.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libVuforia.so'
+         pickFirst 'lib/x86_64/libVuforia.so'
+         pickFirst 'lib/armeabi/libVuforia.so'
+         pickFirst 'lib/x86/libVuforia.so'
+        pickFirst 'lib/armeabi-v7a/libVuforia.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libVuforiaUnityPlayer.so'
+         pickFirst 'lib/x86_64/libVuforiaUnityPlayer.so'
+         pickFirst 'lib/armeabi/libVuforiaUnityPlayer.so'
+         pickFirst 'lib/x86/libVuforiaUnityPlayer.so'
+        pickFirst 'lib/armeabi-v7a/libVuforiaUnityPlayer.so'
+    //     //
+         pickFirst 'lib/arm64-v8a/libVuforiaWrapper.so'
+         pickFirst 'lib/x86_64/libVuforiaWrapper.so'
+         pickFirst 'lib/armeabi/libVuforiaWrapper.so'
+         pickFirst 'lib/x86/libVuforiaWrapper.so'
+         pickFirst 'lib/armeabi-v7a/libVuforiaWrapper.so'
+    //     //
+//          pickFirst 'lib/arm64-v8a/libUnityARCore.so'
+//          pickFirst 'lib/x86_64/libUnityARCore.so'
+//          pickFirst 'lib/armeabi/libUnityARCore.so'
+//          pickFirst 'lib/x86/libUnityARCore.so'
+//          pickFirst 'lib/armeabi-v7a/libUnityARCore.so'
+    //     // //
+//          pickFirst 'lib/arm64-v8a/libarcore_sdk_c1.so'
+//          pickFirst 'lib/x86_64/libarcore_sdk_c1.so'
+//          pickFirst 'lib/armeabi/libarcore_sdk_c1.so'
+//          pickFirst 'lib/x86/libarcore_sdk_c1.so'
+//          pickFirst 'lib/armeabi-v7a/libarcore_sdk_c1.so'
+    //     // //
+//          pickFirst 'lib/arm64-v8a/libarcore_sdk_jni1.so'
+//          pickFirst 'lib/x86_64/libarcore_sdk_jni1.so'
+//          pickFirst 'lib/armeabi/libarcore_sdk_jni1.so'
+//          pickFirst 'lib/x86/libarcore_sdk_jni1.so'
+//          pickFirst 'lib/armeabi-v7a/libarcore_sdk_jni1.so'
+    //     // //
+//          pickFirst 'lib/arm64-v8a/libarpresto_api1.so'
+//          pickFirst 'lib/x86_64/libarpresto_api1.so'
+//          pickFirst 'lib/armeabi/libarpresto_api1.so'
+//          pickFirst 'lib/x86/libarpresto_api1.so'
+//          pickFirst 'lib/armeabi-v7a/libarpresto_api1.so'
+    //     // //
+//          pickFirst 'lib/arm64-v8a/libil2cpp1.so'
+//          pickFirst 'lib/x86_64/libil2cpp1.so'
+//          pickFirst 'lib/armeabi/libil2cpp1.so'
+//          pickFirst 'lib/x86/libil2cpp1.so'
+//          pickFirst 'lib/armeabi-v7a/libil2cpp1.so'
+    //     // //
+//          pickFirst 'lib/arm64-v8a/libmain1.so'
+//          pickFirst 'lib/x86_64/libmain1.so'
+//          pickFirst 'lib/armeabi/libmain1.so'
+//          pickFirst 'lib/x86/libmain1.so'
+//          pickFirst 'lib/armeabi-v7a/libmain1.so'
+
+//          pickFirst 'lib/arm64-v8a/libunity1.so'
+//          pickFirst 'lib/x86_64/libunity1.so'
+//          pickFirst 'lib/armeabi/libunity1.so'
+//          pickFirst 'lib/x86/libunity1.so'
+//          pickFirst 'lib/armeabi-v7a/libunity1.so'
+
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.example.sains"
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+       release {
+           keyAlias keystoreProperties['keyAlias']
+           keyPassword keystoreProperties['keyPassword']
+           storeFile file(keystoreProperties['storeFile'])
+           storePassword keystoreProperties['storePassword']
+       }
+   }
+
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    // implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.8.0'
+    // implementation 'com.google.ar.sceneform:core:1.8.0'
+    // implementation 'com.google.ar:core:1.8.0'
+}
+
+// sceneform.asset('sampledata/solar/scene.gltf',
+//         'default',
+//         'sampledata/solar/scene.sfa',
+//         'src/main/assets/scene')
+
+// sceneform.asset('sampledata/epidermis/scene.gltf',
+//         'default',
+//         'sampledata/epidermis/scene.sfa',
+//         'src/main/assets/epidermis')

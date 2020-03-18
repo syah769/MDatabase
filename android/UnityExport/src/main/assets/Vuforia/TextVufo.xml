@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Soalan15" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan14" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan13" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan12" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan11" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan10" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan9" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan8" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan7" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan6" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan5" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan4" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan3" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan2" size="1.000000 0.571429" />
+    <ImageTarget name="Soalan1" size="1.000000 0.571429" />
+    <ImageTarget name="three" size="1.000000 1.000000" />
+    <ImageTarget name="two" size="1.000000 1.000000" />
+    <ImageTarget name="satu" size="1.000000 0.666667" />
+  </Tracking>
+</QCARConfig>

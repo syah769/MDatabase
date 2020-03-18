@@ -1,0 +1,56 @@
+[
+    {
+        "1": "Ini bahagian sistem respirasi manusia. Yang manakah tidak benar tentang sistem ini?",
+        "2": "Ini satu eksperimen tentang kesan merokok ke atas paru-paru manusia. Yang manakah tidak benar?",
+        "3": "Apakah penyakit yang dialami oleh pesakit ini?",
+        "4": "Apakah adaptasi struktur X yang meningkatkan kecekapan pertukaran gas dalam badan manusia?",
+        "5": "Which function finds out the Variable type in Python ?"
+        
+    },
+    {
+        "1": {
+            "a": "Mempunyai dinding nipis",
+            "b": "Mempunyai permukaan lembap",
+            "c": "Dikelilingi oleh kapilari",
+            "d": "Mengurangkan luas permukaan untuk peresapan oksigen"
+        },
+        "2": {
+            "a": "Asap rokok adalah berasid",
+            "b": "Kapas lembap bertukar perang",
+            "c": "Suhu kekal tidak berubah",
+            "d": "Larutan penunjuk bikarbonat berubah dari merah ke kuning"
+        },
+        "3": {
+            "a": "Asma",
+            "b": "Selesema",
+            "c": "Emfisema",
+            "d": "Kencing manis"
+        },
+        "4": {
+            "a": "Diliputi kapilari darah yang sedikit",
+            "b": "Mempunyai luas permukaan yang kecil",
+            "c": "Mempunyai dinding nipis dan lembap",
+            "d": "Mempunyai dinding tebal dan kering"
+        },
+        "5": {
+            "a": "typedef",
+            "b": "typeof",
+            "c": "type",
+            "d": "find"
+        }
+    },
+    {
+        "1": "Mengesan dan menukar getaran",
+        "2": "Untuk menangkap mangsa",
+        "3": "Emfisema",
+        "4": "Mempunyai dinding nipis dan lembap",
+        "5": "find"   
+    },
+    {
+        "1": "assets/imgkuiz/trakeol.png",
+        "2": "assets/imgkuiz/eksperimen.png",
+        "3": "assets/imgkuiz/simptom.png",
+        "4": "assets/imgkuiz/xx.png",
+        "5": "assets/imgkuiz/telinga.png"
+    }
+]

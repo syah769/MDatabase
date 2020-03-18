@@ -1,0 +1,2 @@
+// include ':arcore_client', ':ARPresto', ':unity-classes', ':unityandroidpermissions', ':UnityARCore'
+include ':unity-classes', ':VuforiaWrapper', ':arcore_client', ':arcore_rendering_utils', ':arcore_unity', ':classes', ':google_ar_required', ':unitygar'

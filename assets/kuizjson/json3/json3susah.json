@@ -1,0 +1,56 @@
+[
+    {
+        "1": "Apakah persamaan bagi kedua-dua organisma ini?",
+        "2": "Ini adalah maklumat salur darah X. Apakah fungsinya?",
+        "3": "Apakah fungsi bahagian bertanda X?",
+        "4": "Apakah adaptasi struktur X yang meningkatkan kecekapan pertukaran gas dalam badan manusia?",
+        "5": "Which function finds out the Variable type in Python ?"
+        
+    },
+    {
+        "1": {
+            "a": "Bahan kumuh disingkirkan melalui floem",
+            "b": "Bahan kumuh disingkirkan melalui salur darah",
+            "c": "Bahan kumuh disingkirkan secara resapan",
+            "d": "Bahan kumuh disingkirkan secara osmosis"
+        },
+        "2": {
+            "a": "Mengangkut air ke sistem perkumuhan",
+            "b": "Mengangkut darah terdeoksigen semula ke jantung",
+            "c": "Mengangkut darah beroksigen keluar dari jantung",
+            "d": "Membenarkan pertukaran gas, makanan dan bahan kumuh"
+        },
+        "3": {
+            "a": "Mengangkut air",
+            "b": "Mengangkut sukrosa",
+            "c": "Mengangkut oksigen",
+            "d": "Mengangkut garam mineral"
+        },
+        "4": {
+            "a": "Diliputi kapilari darah yang sedikit",
+            "b": "Mempunyai luas permukaan yang kecil",
+            "c": "Mempunyai dinding nipis dan lembap",
+            "d": "Mempunyai dinding tebal dan kering"
+        },
+        "5": {
+            "a": "typedef",
+            "b": "typeof",
+            "c": "type",
+            "d": "find"
+        }
+    },
+    {
+        "1": "Bahan kumuh disingkirkan secara resapan",
+        "2": "Mengangkut darah beroksigen keluar dari jantung",
+        "3": "Mengangkut sukrosa",
+        "4": "Mempunyai dinding nipis dan lembap",
+        "5": "find"   
+    },
+    {
+        "1": "assets/imgkuiz/bakteria.png",
+        "2": "assets/imgkuiz/salur.png",
+        "3": "assets/imgkuiz/fungsi.png",
+        "4": "assets/imgkuiz/xx.png",
+        "5": "assets/imgkuiz/telinga.png"
+    }
+]

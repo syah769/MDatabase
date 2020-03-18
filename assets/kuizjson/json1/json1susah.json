@@ -1,0 +1,56 @@
+[
+    {
+        "1": "Apakah fungsi Q?",
+        "2": "Apakah fungsi gerak balas nastik pada tumbuhan ini?",
+        "3": "Apakah contoh P?",
+        "4": "Ini adalah maklumat penyakit X. Apakah penyakit X?",
+        "5": "Which function finds out the Variable type in Python ?"
+        
+    },
+    {
+        "1": {
+            "a": "Mengesan dan menukar getaran",
+            "b": "Mengawal keseimbangan badan",
+            "c": "Menghantar impuls ke otak",
+            "d": "Menguatkan getaran bunyi"
+        },
+        "2": {
+            "a": "Untuk menangkap mangsa",
+            "b": "Sebagai pertahanan daripada musuh",
+            "c": "Bagi memperoleh air yang banyak",
+            "d": "Untuk memperoleh sokongan agar tumbuh secara menegak"
+        },
+        "3": {
+            "a": "Rembesan air liur",
+            "b": "Degupan jantung",
+            "c": "Menyepak sebiji bola",
+            "d": "Menarik tangan apabila tertusuk duri"
+        },
+        "4": {
+            "a": "Buta warna",
+            "b": "Rabun jauh",
+            "c": "Rabun dekat",
+            "d": "Astigmatisme"
+        },
+        "5": {
+            "a": "typedef",
+            "b": "typeof",
+            "c": "type",
+            "d": "find"
+        }
+    },
+    {
+        "1": "Mengesan dan menukar getaran",
+        "2": "Untuk menangkap mangsa",
+        "3": "Menarik tangan apabila tertusuk duri",
+        "4": "Astigmatisme",
+        "5": "find"   
+    },
+    {
+        "1": "assets/imgkuiz/telinga.png",
+        "2": "assets/imgkuiz/periuk.png",
+        "3": "assets/imgkuiz/p.png",
+        "4": "assets/imgkuiz/x.png",
+        "5": "assets/imgkuiz/telinga.png"
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "1": "Which of the following is the Data Manipulation Language statement? i. \nCREATE ii.\nALTER iii.\nINSERT iv.\nSELECT",
+        "2": "What does SQL stand for?",
+        "3": "Which one is NOT in the group function provided by SQL?",
+        "4": "Identify the query to ELIMINATE a table from a database",
+        "5": "Identify the FALSE statement while using LIKE comparison operator"
+        
+    },
+    {
+        "1": {
+            "a": "i",
+            "b": "iii",
+            "c": "i and ii",
+            "d": "iii and iv"
+        },
+        "2": {
+            "a": "Structured Question Language",
+            "b": "Structured Query Language",
+            "c": "Structured Queue Language",
+            "d": "Strong Query Language"
+        },
+        "3": {
+            "a": "MAX",
+            "b": "COUNT",
+            "c": "TOTAL",
+            "d": "AVG"
+        },
+        "4": {
+            "a": "REMOVE TABLE SUBJECT",
+            "b": "DELETE TABLE SUBJECT",
+            "c": "UPDATE TABLE SUBJECT",
+            "d": "DROP TABLE SUBJECT"
+        },
+        "5": {
+            "a": "WHERE customerName LIKE ‘ad%’;",
+            "b": "WHERE customerName LIKE ‘%ad’;", 
+            "c": "WHERE customerName LIKE ‘_ad%’;",
+            "d": "WHERE customerName LIKE = ‘ad%’;"
+        }
+    },
+    {
+        "1": "iii and iv",
+        "2": "Structured Query Language",
+        "3": "TOTAL",
+        "4": "DROP TABLE SUBJECT",
+        "5": "WHERE customerName LIKE = ‘ad%’;"   
+    }
+]

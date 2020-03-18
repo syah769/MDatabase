@@ -1,0 +1,49 @@
+[
+    {
+        "1": "Pick entities from the following:\ni) vendor\nii) student \niii) attends \niv) km/hour",
+        "2": "The ______ in a table is the column that makes each record different from all others",
+        "3": "Which attribute need NOT be physically stored within the database?",
+        "4": "In RDBMS, different classes of relations are created using ______ technique to prevent modification anomalies",
+        "5": "In RDBMS, the constraint that no key attribute (column) may be NULL is referred to as: "
+        
+    },
+    {
+        "1": {
+            "a": "i, ii, iii ",
+            "b": "i, ii, iv",
+            "c": "i and ii",
+            "d": "iii and iv"
+        },
+        "2": {
+            "a": "Unique Key",
+            "b": "Primary Key",
+            "c": "Candidate Key",
+            "d": "Foreign Key"
+        },
+        "3": {
+            "a": "Derived",
+            "b": "Composite",
+            "c": "Multi-Valued",
+            "d": "Single-Valued"
+        },
+        "4": {
+            "a": "Functional Dependencies",
+            "b": "Data integrity",
+            "c": "Referential integrity",
+            "d": "Normal Forms"
+        },
+        "5": {
+            "a": "Referential integrity",
+            "b": "Multi-valued dependency",
+            "c": "Entity Integrity",
+            "d": "Functional dependency"
+        }
+    },
+    {
+        "1": "i and ii",
+        "2": "Primary Key",
+        "3": "Derived",
+        "4": "Normal Forms",
+        "5": "Entity Integrity"   
+    }
+]

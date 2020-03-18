@@ -1,0 +1,49 @@
+[
+    {
+        "1": "Select the CORRECT symbolic notation for project operator",
+        "2": "Choose the most suitable example of data",
+        "3": "Select the most suitable term that will define the relationships between tables that can be used as a cross reference table",
+        "4": "Select the CORRECT relational algebra statement to view Zahra Husna’s birth date",
+        "5": "List all managerID and managerName whose workExperience more than 5"
+        
+    },
+    {
+        "1": {
+            "a": "π",
+            "b": "X",
+            "c": "σ",
+            "d": "∪"
+        },
+        "2": {
+            "a": "City",
+            "b": "State",
+            "c": "Pahang",
+            "d": "Country"
+        },
+        "3": {
+            "a": "Foreign Key",
+            "b": "Primary Key",
+            "c": "Candidate Key",
+            "d": "Composite Key"
+        },
+        "4": {
+            "a": "πname(σname= ‘Zahra Husna’)(EMPLOYEE)",
+            "b": "πbirhdate(σname=‘Zahra Husna’)(EMPLOYEE)",
+            "c": "σname(πname= ‘Zahra Husna’)(EMPLOYEE)",
+            "d": "σbirhdate(πname=‘Zahra Husna’)(EMPLOYEE)"
+        },
+        "5": {
+            "a": "πmanagerID,managerName (σworkExperience=5)(MANAGER)",
+            "b": "πmanagerID,managerName (σworkExperience>5)(MANAGER)",
+            "c": "σmanagerID,managerName (πworkExperience=5)(MANAGER)",
+            "d": "σmanagerID,managerName (πworkExperience>5)(MANAGER)"
+        }
+    },
+    {
+        "1": "π",
+        "2": "State",
+        "3": "Primary Key",
+        "4": "σbirhdate(πname=‘Zahra Husna’)(EMPLOYEE)",
+        "5": "πmanagerID,managerName (σworkExperience>5)(MANAGER)"   
+    }
+]
